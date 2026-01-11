@@ -2,9 +2,9 @@
 
 ## Descripción del proyecto
 
-Este proyecto tiene como objetivo analizar, controlar y explicar los desvíos mensuales de gastos contables, combinando análisis estadístico, criterios de materialidad y visualización ejecutiva mediante dashboards interactivos.
+Este proyecto tiene como objetivo analizar y controlar los desvíos mensuales de gastos contables, combinando análisis estadístico, criterios de materialidad, politicas de empresa y visualización mediante dashboards interactivos.
 
-El enfoque está orientado a control de gestión, permitiendo identificar:
+El enfoque está orientado a un control contable y de reporte, permitiendo identificar:
 
 - Qué cuentas explican el gasto del período  
 - Qué desvíos son significativos  
@@ -30,7 +30,7 @@ El análisis busca responder las siguientes preguntas de negocio:
 - ¿Qué desvíos son atípicos y requieren análisis operativo?  
 - ¿Qué cuentas adicionales deben justificarse para cumplir con una política de control de desvíos?  
 
-El resultado final permite priorizar esfuerzos de análisis, reducir ruido operativo y focalizar la gestión en los verdaderos drivers del desvío mensual.
+El resultado final permite priorizar el análisis, reducir ruido operativo y focalizar en las cuentas que justifican del desvío mensual.
 
 ## Metodología de análisis
 
@@ -135,7 +135,6 @@ El proyecto permite:
 - Identificar cuentas clave que explican el gasto mensual  
 - Detectar desvíos relevantes y atípicos  
 - Separar desvíos justificados, a justificar y residuales  
-- Priorizar análisis operativo y documentación  
 - Comunicar resultados de forma clara mediante dashboards  
 
 El enfoque combina criterio contable, análisis estadístico y visualización.
@@ -161,5 +160,6 @@ El enfoque combina criterio contable, análisis estadístico y visualización.
 Data Analyst | Finance & Reporting  
 
 Proyecto orientado a automatización, análisis contable y reporting.
+
 
 
