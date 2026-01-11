@@ -99,27 +99,34 @@ Esto permite determinar qué cuentas deben justificarse adicionalmente para cump
 
 ## Estructura del proyecto
 
-data/
- ├── raw/              # Archivos originales del ERP
- ├── processed/        # Archivos normalizados y unificados
- └── mapping/          # Archivos externos
-
-outputs/
- ├── pareto_mes.csv
- ├── desvios_mes_total.csv
- ├── desvios_mes_A.csv
- ├── outliers_iqr.csv
- ├── cuentas_adicionales.csv
-
- src/
- └── ingest_eda.py
-
-notebooks/
- ├── 01_eda_gastos_contables.ipynb
- └── 02_analisis_contable_gastos.csv
- 
-report/
- └── power_bi_dashboard.pbix
+```
+analisis-desvios-gastos/
+│
+├── data/
+│ ├── raw/          # Archivos originales del ERP (no incluidos)
+│ ├── processed/    # Archivos normalizados y unificados (no incluidos)
+│ └── mapping/      # Archivos externos de clasificación
+│
+├── outputs/
+│ ├── pareto_mes.csv
+│ ├── desvios_mes_total.csv
+│ ├── desvios_mes_A.csv
+│ ├── outliers_iqr.csv
+│ └── cuentas_adicionales.csv
+│
+├── src/
+│ └── ingest_eda.py
+│
+├── notebooks/
+│ ├── 01_eda_gastos_contables.ipynb
+│ └── 02_analisis_contable_gastos.ipynb
+│
+├── report/
+│ └── power_bi_dashboard.pbix   # Archivos originales del ERP (no incluido)
+│
+├── requirements.txt
+└── README.md
+```
 
 ## Resultados principales
 
@@ -154,4 +161,5 @@ El enfoque combina criterio contable, análisis estadístico y visualización.
 Data Analyst | Finance & Reporting  
 
 Proyecto orientado a automatización, análisis contable y reporting.
+
 
